@@ -1,0 +1,6 @@
+-keep class **.R$* { *; }
+-keep class androidx.** { *; }
+-keep class android.support.** { *; }
+-keep class kotlin.** { *; }
+-keep class dev.rikka.shizuku.** { *; }
+-ignorewarnings

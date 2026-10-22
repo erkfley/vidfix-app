@@ -1,0 +1,10 @@
+package com.volumebooster.pro.ui.theme
+
+import androidx.compose.ui.graphics.Color
+
+val Purple80 = Color(0xFFD0BCFF)
+val PurpleGrey80 = Color(0xFFCCC2DC)
+val Pink80 = Color(0xFFEFB8C8)
+val Primary = Color(0xFF2196F3)
+val Secondary = Color(0xFF9C27B0)
+val Accent = Color(0xFFFFC107)

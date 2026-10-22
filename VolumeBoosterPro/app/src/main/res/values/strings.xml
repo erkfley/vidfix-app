@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Volume Booster Pro</string>
+    <string name="current_volume">Current Volume: %d%%</string>
+    <string name="boost_level">Boost Level: %d%%</string>
+    <string name="status_active">ACTIVE</string>
+    <string name="status_inactive">INACTIVE</string>
+    <string name="toggle_boost">Toggle Boost</string>
+    <string name="open_equalizer">Open Equalizer</string>
+    <string name="settings">Settings</string>
+    <string name="equalizer_title">Equalizer</string>
+    <string name="bass_boost">Bass Boost</string>
+    <string name="treble_boost">Treble Boost</string>
+</resources>

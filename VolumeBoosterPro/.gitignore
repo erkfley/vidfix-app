@@ -1,0 +1,27 @@
+# Android
+*.iml
+.idea/
+gradle/
+local.properties
+*.jks
+*.keystore
+build/
+
+# Kotlin
+*.ktm
+*.kts
+
+# Generated files
+app/build/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build outputs
+*.apk
+*.aar
+*.so
