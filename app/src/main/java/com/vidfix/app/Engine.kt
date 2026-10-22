@@ -173,8 +173,8 @@ object Engine {
 
         val info = FFprobeKit.getMediaInformation(safIn).mediaInformation
         val duration = info?.duration?.toDoubleOrNull() ?: 0.0
-        val srcW = info?.streams?.firstOrNull()?.width ?: 0
-        val srcH = info?.streams?.firstOrNull()?.height ?: 0
+        val srcW = info?.streams?.firstOrNull()?.width?.toInt() ?: 0
+        val srcH = info?.streams?.firstOrNull()?.height?.toInt() ?: 0
         if (srcW <= 0 || srcH <= 0) {
             onDone(Output(false, null, null, -1))
             return
