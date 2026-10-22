@@ -11,7 +11,6 @@ import com.arthenica.ffmpegkit.FFmpegKitConfig
 import com.arthenica.ffmpegkit.FFmpegSession
 import com.arthenica.ffmpegkit.FFprobeKit
 import com.arthenica.ffmpegkit.ReturnCode
-import com.arthenica.ffmpegkit.SessionState
 import java.io.File
 import kotlin.math.max
 import kotlin.math.min
@@ -214,9 +213,9 @@ object Engine {
         }
 
         var lastPct = -1
-        fun handleStats(timeMs: Long) {
+        fun handleStats(timeSec: Double) {
             if (duration > 0) {
-                val pct = ((timeMs / 1000.0) / duration * 100).toInt().coerceIn(0, 100)
+                val pct = (timeSec / duration * 100).toInt().coerceIn(0, 100)
                 if (pct != lastPct) {
                     lastPct = pct
                     onProgress(pct)
@@ -226,7 +225,7 @@ object Engine {
 
         fun complete(session: FFmpegSession, attempt: Int) {
             val rc = session.returnCode
-            val cancelled = session.state == SessionState.ABORTED
+            val cancelled = ReturnCode.isCancel(session.returnCode)
             if (ReturnCode.isSuccess(rc)) {
                 outUri?.let { finishPending(context, it) }
                 onDone(Output(true, outUri, legacyFile, 0))
