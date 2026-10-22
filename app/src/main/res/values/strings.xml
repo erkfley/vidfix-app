@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">VidFix</string>
+    <string name="tagline">Video Enhancer — Upscale | Color | FPS</string>
+    <string name="btn_pick">Choose video</string>
+    <string name="no_file">No video selected yet</string>
+    <string name="label_content">Content type</string>
+    <string name="label_upscale">Upscaling</string>
+    <string name="label_color">Color grading</string>
+    <string name="label_fps">FPS interpolation</string>
+    <string name="label_ram">Device RAM (auto sets safe limits)</string>
+    <string name="btn_start">Start enhancing</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_open">Open result</string>
+    <string name="btn_lang">Bahasa Indonesia</string>
+    <string name="analyzing">Analyzing video…</string>
+    <string name="detect_result">Detected: %1$s</string>
+    <string name="starting">Starting FFmpeg…</string>
+    <string name="working">%1$d%%</string>
+    <string name="done">Done! Saved to Movies/VidFix</string>
+    <string name="done_legacy">Done! Saved to app folder</string>
+    <string name="failed">Failed (code %1$d). See log below.</string>
+    <string name="cancelled">Cancelled.</string>
+    <string name="warn_safe">RAM tier Safe: 120 fps capped to 60 fps.</string>
+    <string name="warn_4k">4K is heavy on low-RAM phones.</string>
+    <string name="ram_auto">Auto-detect (%1$.1f GB → %2$s)</string>
+    <string name="need_file">Pick a video first!</string>
+    <string name="est_time">~%1$.1f min (rough)</string>
+    <string name="detecting_note">Auto-detect uses noise/color/edge math on 5 sample frames.</string>
+</resources>

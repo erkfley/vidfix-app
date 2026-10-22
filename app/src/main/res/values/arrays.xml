@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="content_options">
+        <item>Auto-detect (recommended)</item>
+        <item>Real life (camera / phone)</item>
+        <item>Anime / cartoon</item>
+        <item>Game / screen recording</item>
+    </string-array>
+    <string-array name="upscale_options">
+        <item>Keep resolution</item>
+        <item>HD 1280x720</item>
+        <item>FHD 1920x1080</item>
+        <item>QHD 2560x1440</item>
+        <item>UHD 3840x2160 (4K)</item>
+    </string-array>
+    <string-array name="color_options">
+        <item>Keep original colors</item>
+        <item>Auto-Fix (recommended)</item>
+        <item>Vivid</item>
+        <item>Cinematic</item>
+    </string-array>
+    <string-array name="fps_options">
+        <item>Keep original FPS</item>
+        <item>Smooth 30 fps</item>
+        <item>Smooth 60 fps</item>
+        <item>Ultra 120 fps</item>
+    </string-array>
+    <string-array name="ram_options">
+        <item>3 GB</item>
+        <item>4 GB</item>
+        <item>6 GB</item>
+        <item>8 GB</item>
+        <item>12 GB</item>
+        <item>16 GB+</item>
+    </string-array>
+    <!-- Machine-readable values, same order as above -->
+    <string-array name="content_values">
+        <item>auto</item>
+        <item>real</item>
+        <item>anime</item>
+        <item>game</item>
+    </string-array>
+</resources>

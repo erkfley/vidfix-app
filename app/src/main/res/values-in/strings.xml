@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">VidFix</string>
+    <string name="tagline">Pemperbagus Video — Upscale | Warna | FPS</string>
+    <string name="btn_pick">Pilih video</string>
+    <string name="no_file">Belum ada video yang dipilih</string>
+    <string name="label_content">Jenis konten</string>
+    <string name="label_upscale">Upscaling</string>
+    <string name="label_color">Color grading</string>
+    <string name="label_fps">Interpolasi FPS</string>
+    <string name="label_ram">RAM HP (menentukan batas aman)</string>
+    <string name="btn_start">Mulai perbagus</string>
+    <string name="btn_cancel">Batal</string>
+    <string name="btn_open">Buka hasil</string>
+    <string name="btn_lang">English</string>
+    <string name="analyzing">Menganalisis video…</string>
+    <string name="detect_result">Terdeteksi: %1$s</string>
+    <string name="starting">Menjalankan FFmpeg…</string>
+    <string name="working">%1$d%%</string>
+    <string name="done">Selesai! Tersimpan di Movies/VidFix</string>
+    <string name="done_legacy">Selesai! Tersimpan di folder aplikasi</string>
+    <string name="failed">Gagal (kode %1$d). Lihat log di bawah.</string>
+    <string name="cancelled">Dibatalkan.</string>
+    <string name="warn_safe">Mode RAM Aman: 120 fps dibatasi ke 60 fps.</string>
+    <string name="warn_4k">4K berat untuk HP RAM kecil.</string>
+    <string name="ram_auto">Deteksi otomatis (%1$.1f GB → %2$s)</string>
+    <string name="need_file">Pilih video dulu!</string>
+    <string name="est_time">~%1$.1f menit (perkiraan)</string>
+    <string name="detecting_note">Deteksi otomatis memakai matematika noise/warna/tepi pada 5 frame contoh.</string>
+</resources>
